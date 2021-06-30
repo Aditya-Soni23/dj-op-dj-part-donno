@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AI DJ WEB APP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/addons/p5.sound.js"></script>
+
+</head>
+<body background="84fbdac0f75c9293a5b1cf58361d88f6.jpg">
+<center>
+  	<h3 class="btn btn-warning heading">AI DJ WEB APP
+	    <br>
+	    <span class="note">NOTE - Move your left hand wrist to play Harmane remix and right wrist for Marshmellow.</span>
+  	</h3>
+    <div class="div_speed">
+      <img src="6b2f1c5dba92f48a53020755a9887e06.gif" class="div_speed_img">
+      <br>
+      <h3 class="btn btn-danger" id="speed">Harmane Remix</h3>
+    </div>
+    <div class="div_volume">
+      <img src="6b2f1c5dba92f48a53020755a9887e06.gif" class="div_volume_img">
+      <br> 
+      <h3 class="btn btn-danger" id="volume">Marshmellow</h3>
+    </div>
+	<br><br>
+  <button onclick="play()" class="btn btn-success play_button">Play</button>
+</center>
+
+<script src="main.js"></script>
+</body>
+</html>
